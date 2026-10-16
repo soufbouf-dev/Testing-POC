@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="398" viewBox="0 0 960 398" role="img" aria-label="example_2.calc / TEST REPORT: 9 of 11 tests passed">
+<style>text{font-family:Arial,Helvetica,sans-serif}</style>
+<rect x="0" y="0" width="960" height="398" rx="18" fill="#0f172a"/>
+<rect x="0" y="0" width="6" height="398" rx="3" fill="#fbbf24"/>
+<text x="32" y="42" fill="#94a3b8" font-size="15" font-weight="700">EXAMPLE_2.CALC / TEST REPORT</text>
+<text x="32" y="88" fill="#f8fafc" font-size="46" font-weight="700">81.8%</text>
+<text x="210" y="84" fill="#fbbf24" font-size="18" font-weight="700">Standard failures</text>
+<text x="210" y="108" fill="#cbd5e1" font-size="14" font-weight="400">9 / 11 tests passed</text>
+<text x="928" y="40" fill="#94a3b8" font-size="12" font-weight="400" text-anchor="end">12 Oct 2026 · 10:27 UTC</text>
+<rect x="32" y="128" width="896" height="12" rx="6" fill="#334155"/>
+<rect x="32" y="128" width="733.09" height="12" rx="6" fill="#fbbf24"/>
+<rect x="32" y="160" width="212" height="76" rx="10" fill="#1e293b"/>
+<text x="48" y="186" fill="#94a3b8" font-size="12" font-weight="700">PASSED</text>
+<text x="48" y="218" fill="#4ade80" font-size="27" font-weight="700">9</text>
+<rect x="260" y="160" width="212" height="76" rx="10" fill="#1e293b"/>
+<text x="276" y="186" fill="#94a3b8" font-size="12" font-weight="700">FAILED</text>
+<text x="276" y="218" fill="#fb7185" font-size="27" font-weight="700">1</text>
+<rect x="488" y="160" width="212" height="76" rx="10" fill="#1e293b"/>
+<text x="504" y="186" fill="#94a3b8" font-size="12" font-weight="700">ERRORS</text>
+<text x="504" y="218" fill="#fb7185" font-size="27" font-weight="700">1</text>
+<rect x="716" y="160" width="212" height="76" rx="10" fill="#1e293b"/>
+<text x="732" y="186" fill="#94a3b8" font-size="12" font-weight="700">CRITICAL</text>
+<text x="732" y="218" fill="#4ade80" font-size="27" font-weight="700">7/7</text>
+<text x="32" y="269" fill="#94a3b8" font-size="12" font-weight="700">BREAKDOWN</text>
+<rect x="32" y="280" width="896" height="46" rx="8" fill="#1e293b"/>
+<rect x="46" y="292" width="4" height="22" rx="2" fill="#4ade80"/>
+<text x="64" y="309" fill="#f8fafc" font-size="15" font-weight="600">calculator</text>
+<text x="720" y="309" fill="#cbd5e1" font-size="14" font-weight="400" text-anchor="end">7/7 passed</text>
+<rect x="750" y="298" width="120" height="10" rx="5" fill="#334155"/>
+<rect x="750" y="298" width="120.0" height="10" rx="5" fill="#4ade80"/>
+<text x="914" y="309" fill="#4ade80" font-size="13" font-weight="700" text-anchor="end">100%</text>
+<rect x="32" y="334" width="896" height="46" rx="8" fill="#1e293b"/>
+<rect x="46" y="346" width="4" height="22" rx="2" fill="#fbbf24"/>
+<text x="64" y="363" fill="#f8fafc" font-size="15" font-weight="600">misc</text>
+<text x="720" y="363" fill="#cbd5e1" font-size="14" font-weight="400" text-anchor="end">2/4 passed</text>
+<rect x="750" y="352" width="120" height="10" rx="5" fill="#334155"/>
+<rect x="750" y="352" width="60.0" height="10" rx="5" fill="#fbbf24"/>
+<text x="914" y="363" fill="#fbbf24" font-size="13" font-weight="700" text-anchor="end">50%</text>
+</svg>
