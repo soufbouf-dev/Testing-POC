@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T11:23:37.677340+00:00",
+  "generated_at": "2026-10-16T11:35:48.858697+00:00",
   "complete": true,
   "modules": [
     {
@@ -19,35 +19,127 @@
               "name": "divide",
               "status": "passed",
               "classification": "critical",
-              "duration_ms": 0.0057,
+              "duration_ms": 0.0061,
               "diagnostics": ""
             },
             {
               "name": "divide_by_zero",
               "status": "passed",
               "classification": "critical",
-              "duration_ms": 0.0046,
+              "duration_ms": 0.0045,
               "diagnostics": ""
             },
             {
               "name": "divide_negative",
               "status": "passed",
               "classification": "critical",
-              "duration_ms": 0.0032,
+              "duration_ms": 0.0035,
               "diagnostics": ""
             },
             {
               "name": "multiply",
               "status": "passed",
               "classification": "critical",
-              "duration_ms": 0.0026,
+              "duration_ms": 0.0022,
               "diagnostics": ""
             },
             {
               "name": "multiply_negative",
               "status": "passed",
               "classification": "critical",
-              "duration_ms": 0.0094,
+              "duration_ms": 0.0024,
+              "diagnostics": ""
+            },
+            {
+              "name": "subtract",
+              "status": "passed",
+              "classification": "critical",
+              "duration_ms": 0.0024,
+              "diagnostics": ""
+            }
+          ]
+        },
+        {
+          "scope": "misc",
+          "tests": [
+            {
+              "name": "format_result",
+              "status": "passed",
+              "classification": "standard",
+              "duration_ms": 0.0073,
+              "diagnostics": ""
+            },
+            {
+              "name": "format_round_up",
+              "status": "failed",
+              "classification": "standard",
+              "duration_ms": 0.0053,
+              "diagnostics": "Expected: '2.15'\nActual:   '2.16'\n"
+            },
+            {
+              "name": "operation_label",
+              "status": "error",
+              "classification": "standard",
+              "duration_ms": 0.7061,
+              "diagnostics": "Traceback (most recent call last):\n  File \"C:\\Users\\s.boufrahi\\Documents\\Qlib\\testing_poc\\testing\\runner.py\", line 139, in run_test\n    result = test_function()\n  File \"C:\\Users\\s.boufrahi\\Documents\\Qlib\\testing_poc\\example\\tests\\test_misc.py\", line 28, in test_operation_label\n    actual = operation_label(operation)\n  File \"C:\\Users\\s.boufrahi\\Documents\\Qlib\\testing_poc\\example\\calculator.py\", line 51, in operation_label\n    raise ValueError(f\"Unknown operation: {operation}\")\nValueError: Unknown operation: addy\n"
+            },
+            {
+              "name": "operation_label_error",
+              "status": "passed",
+              "classification": "standard",
+              "duration_ms": 0.0066,
+              "diagnostics": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "module": "example_2.calc",
+      "scopes": [
+        {
+          "scope": "calculator",
+          "tests": [
+            {
+              "name": "add",
+              "status": "passed",
+              "classification": "critical",
+              "duration_ms": 0.0076,
+              "diagnostics": ""
+            },
+            {
+              "name": "divide",
+              "status": "passed",
+              "classification": "critical",
+              "duration_ms": 0.0034,
+              "diagnostics": ""
+            },
+            {
+              "name": "divide_by_zero",
+              "status": "passed",
+              "classification": "critical",
+              "duration_ms": 0.0036,
+              "diagnostics": ""
+            },
+            {
+              "name": "divide_negative",
+              "status": "passed",
+              "classification": "critical",
+              "duration_ms": 0.0024,
+              "diagnostics": ""
+            },
+            {
+              "name": "multiply",
+              "status": "passed",
+              "classification": "critical",
+              "duration_ms": 0.0023,
+              "diagnostics": ""
+            },
+            {
+              "name": "multiply_negative",
+              "status": "passed",
+              "classification": "critical",
+              "duration_ms": 0.0018,
               "diagnostics": ""
             },
             {
@@ -66,120 +158,28 @@
               "name": "format_result",
               "status": "passed",
               "classification": "standard",
-              "duration_ms": 0.0088,
+              "duration_ms": 0.0051,
               "diagnostics": ""
             },
             {
               "name": "format_round_up",
               "status": "failed",
               "classification": "standard",
-              "duration_ms": 0.0056,
+              "duration_ms": 0.0043,
               "diagnostics": "Expected: '2.15'\nActual:   '2.16'\n"
             },
             {
               "name": "operation_label",
               "status": "error",
               "classification": "standard",
-              "duration_ms": 0.7228,
-              "diagnostics": "Traceback (most recent call last):\n  File \"C:\\Users\\s.boufrahi\\Documents\\Qlib\\testing_poc\\testing\\runner.py\", line 139, in run_test\n    result = test_function()\n  File \"C:\\Users\\s.boufrahi\\Documents\\Qlib\\testing_poc\\example\\tests\\test_misc.py\", line 28, in test_operation_label\n    actual = operation_label(operation)\n  File \"C:\\Users\\s.boufrahi\\Documents\\Qlib\\testing_poc\\example\\calculator.py\", line 51, in operation_label\n    raise ValueError(f\"Unknown operation: {operation}\")\nValueError: Unknown operation: addy\n"
-            },
-            {
-              "name": "operation_label_error",
-              "status": "passed",
-              "classification": "standard",
-              "duration_ms": 0.0065,
-              "diagnostics": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "module": "example_2.calc",
-      "scopes": [
-        {
-          "scope": "calculator",
-          "tests": [
-            {
-              "name": "add",
-              "status": "passed",
-              "classification": "critical",
-              "duration_ms": 0.008,
-              "diagnostics": ""
-            },
-            {
-              "name": "divide",
-              "status": "passed",
-              "classification": "critical",
-              "duration_ms": 0.0029,
-              "diagnostics": ""
-            },
-            {
-              "name": "divide_by_zero",
-              "status": "passed",
-              "classification": "critical",
-              "duration_ms": 0.0032,
-              "diagnostics": ""
-            },
-            {
-              "name": "divide_negative",
-              "status": "passed",
-              "classification": "critical",
-              "duration_ms": 0.0021,
-              "diagnostics": ""
-            },
-            {
-              "name": "multiply",
-              "status": "passed",
-              "classification": "critical",
-              "duration_ms": 0.002,
-              "diagnostics": ""
-            },
-            {
-              "name": "multiply_negative",
-              "status": "passed",
-              "classification": "critical",
-              "duration_ms": 0.0017,
-              "diagnostics": ""
-            },
-            {
-              "name": "subtract",
-              "status": "passed",
-              "classification": "critical",
-              "duration_ms": 0.002,
-              "diagnostics": ""
-            }
-          ]
-        },
-        {
-          "scope": "misc",
-          "tests": [
-            {
-              "name": "format_result",
-              "status": "passed",
-              "classification": "standard",
-              "duration_ms": 0.005,
-              "diagnostics": ""
-            },
-            {
-              "name": "format_round_up",
-              "status": "failed",
-              "classification": "standard",
-              "duration_ms": 0.0045,
-              "diagnostics": "Expected: '2.15'\nActual:   '2.16'\n"
-            },
-            {
-              "name": "operation_label",
-              "status": "error",
-              "classification": "standard",
-              "duration_ms": 0.4279,
+              "duration_ms": 0.3642,
               "diagnostics": "Traceback (most recent call last):\n  File \"C:\\Users\\s.boufrahi\\Documents\\Qlib\\testing_poc\\testing\\runner.py\", line 139, in run_test\n    result = test_function()\n  File \"C:\\Users\\s.boufrahi\\Documents\\Qlib\\testing_poc\\example_2\\calc\\tests\\test_misc.py\", line 28, in test_operation_label\n    actual = operation_label(operation)\n  File \"C:\\Users\\s.boufrahi\\Documents\\Qlib\\testing_poc\\example\\calculator.py\", line 51, in operation_label\n    raise ValueError(f\"Unknown operation: {operation}\")\nValueError: Unknown operation: addy\n"
             },
             {
               "name": "operation_label_error",
               "status": "passed",
               "classification": "standard",
-              "duration_ms": 0.0058,
+              "duration_ms": 0.0056,
               "diagnostics": ""
             }
           ]
