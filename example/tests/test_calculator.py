@@ -10,7 +10,7 @@ from example.calculator import (
 def test_add():
     a = 1.0
     b = 2.1
-    expected = 3.15
+    expected = 3.10
     actual = round(add(a, b), 2)
     return compare(actual, expected)
 

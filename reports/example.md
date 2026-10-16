@@ -7,32 +7,19 @@
 
 ---
 
-## ❌ Calculator
+## ✅ Calculator
 
-**6/7 passed** · 85.7%
+**7/7 passed** · 100.0%
 
 | Test | Priority | Result | Time |
 |:---|:---:|:---:|---:|
-| `add` | Critical | ❌ Failed | 0.0182 ms |
-| `divide` | Critical | ✅ Passed | 0.0056 ms |
-| `divide_by_zero` | Critical | ✅ Passed | 0.0037 ms |
-| `divide_negative` | Critical | ✅ Passed | 0.0031 ms |
-| `multiply` | Critical | ✅ Passed | 0.0021 ms |
-| `multiply_negative` | Critical | ✅ Passed | 0.0021 ms |
-| `subtract` | Critical | ✅ Passed | 0.0022 ms |
-
-### Failure diagnostics
-
-<details>
-<summary><strong>❌ Failed · add</strong></summary>
-
-```text
-Expected: 3.15
-Actual:   3.1
-```
-
-</details>
-
+| `add` | Critical | ✅ Passed | 0.0169 ms |
+| `divide` | Critical | ✅ Passed | 0.0057 ms |
+| `divide_by_zero` | Critical | ✅ Passed | 0.0046 ms |
+| `divide_negative` | Critical | ✅ Passed | 0.0032 ms |
+| `multiply` | Critical | ✅ Passed | 0.0026 ms |
+| `multiply_negative` | Critical | ✅ Passed | 0.0094 ms |
+| `subtract` | Critical | ✅ Passed | 0.0023 ms |
 
 ---
 
@@ -42,10 +29,10 @@ Actual:   3.1
 
 | Test | Priority | Result | Time |
 |:---|:---:|:---:|---:|
-| `format_result` | Standard | ✅ Passed | 0.0064 ms |
-| `format_round_up` | Standard | ❌ Failed | 0.0039 ms |
-| `operation_label` | Standard | 💥 Error | 1.1709 ms |
-| `operation_label_error` | Standard | ✅ Passed | 0.0077 ms |
+| `format_result` | Standard | ✅ Passed | 0.0088 ms |
+| `format_round_up` | Standard | ❌ Failed | 0.0056 ms |
+| `operation_label` | Standard | 💥 Error | 0.7228 ms |
+| `operation_label_error` | Standard | ✅ Passed | 0.0065 ms |
 
 ### Failure diagnostics
 

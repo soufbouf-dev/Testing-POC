@@ -13,13 +13,13 @@
 
 | Test | Priority | Result | Time |
 |:---|:---:|:---:|---:|
-| `add` | Critical | ✅ Passed | 0.0085 ms |
-| `divide` | Critical | ✅ Passed | 0.0031 ms |
-| `divide_by_zero` | Critical | ✅ Passed | 0.0031 ms |
-| `divide_negative` | Critical | ✅ Passed | 0.0032 ms |
-| `multiply` | Critical | ✅ Passed | 0.0029 ms |
-| `multiply_negative` | Critical | ✅ Passed | 0.0027 ms |
-| `subtract` | Critical | ✅ Passed | 0.0026 ms |
+| `add` | Critical | ✅ Passed | 0.0080 ms |
+| `divide` | Critical | ✅ Passed | 0.0029 ms |
+| `divide_by_zero` | Critical | ✅ Passed | 0.0032 ms |
+| `divide_negative` | Critical | ✅ Passed | 0.0021 ms |
+| `multiply` | Critical | ✅ Passed | 0.0020 ms |
+| `multiply_negative` | Critical | ✅ Passed | 0.0017 ms |
+| `subtract` | Critical | ✅ Passed | 0.0020 ms |
 
 ---
 
@@ -29,10 +29,10 @@
 
 | Test | Priority | Result | Time |
 |:---|:---:|:---:|---:|
-| `format_result` | Standard | ✅ Passed | 0.0058 ms |
-| `format_round_up` | Standard | ❌ Failed | 0.0040 ms |
-| `operation_label` | Standard | 💥 Error | 0.3602 ms |
-| `operation_label_error` | Standard | ✅ Passed | 0.0051 ms |
+| `format_result` | Standard | ✅ Passed | 0.0050 ms |
+| `format_round_up` | Standard | ❌ Failed | 0.0045 ms |
+| `operation_label` | Standard | 💥 Error | 0.4279 ms |
+| `operation_label_error` | Standard | ✅ Passed | 0.0058 ms |
 
 ### Failure diagnostics
 
